@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
 body{
     background: #c31432;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+     font-family: 'Ubuntu', sans-serif;    
 
 
 }
 .container{
     border-radius: 20px;
     height: 90vh;
+    box-shadow:   0px 0px 5px #240b36,
+    0px 0px 5px #240b36,
+    0px 0px 5px #c31432,
+    0px 0px 5px #c31432
    
 }
 .sub_container{
@@ -91,6 +97,80 @@ p{
     font-size: 1.5rem;
     
 }
+ .number:hover {
+    cursor: pointer;
+    background-color:#240b36;
+    box-shadow:   0px 0px 5px #240b36,
+                  0px 0px 5px #240b36,
+                  0px 0px 5px #240b36,
+                  0px 0px 5px #240b36;
+    border: 1px solid  #240b36;
+    top:0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(90deg ,transparent,#240b36);
+   
+   
+    
+}
+.trigo:hover{
+    cursor: pointer;
+    background-color:#240b36;
+    box-shadow:   0px 0px 5px #240b36,
+                  0px 0px 5px #240b36,
+                  0px 0px 5px #240b36,
+                  0px 0px 5px #240b36;
+    border: 1px solid  #240b36;
+    top:0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(90deg ,transparent,#240b36);
+   
+}
+.clear:hover{
+    cursor: pointer;
+    background-color:#bc4e9c;
+    box-shadow:   0px 0px 5px #bc4e9c,
+                  0px 0px 5px #bc4e9c,
+                  0px 0px 5px #bc4e9c,
+                  0px 0px 5px #bc4e9c;
+    border: 1px solid  #bc4e9c;
+    top:0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(90deg ,transparent,#240b36);
+}
+.operator:hover{
+    cursor: pointer;
+    background-color:#bc4e9c;
+    box-shadow:   0px 0px 5px #bc4e9c,
+                  0px 0px 5px #bc4e9c,
+                  0px 0px 5px #bc4e9c,
+                  0px 0px 5px #bc4e9c;
+    border: 1px solid  #bc4e9c;
+    top:0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(90deg ,transparent,#240b36);
+}
+.equals:hover{
+    cursor: pointer;
+    background-color:#bc4e9c;
+    box-shadow:   0px 0px 5px #bc4e9c,
+                  0px 0px 5px #bc4e9c,
+                  0px 0px 5px #bc4e9c,
+                  0px 0px 5px #bc4e9c;
+    border: 1px solid  #bc4e9c;
+    top:0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(90deg ,transparent,#240b36);
+}
 .operator{
     border-radius: 100%;
     margin-left: 20px;
@@ -108,17 +188,4 @@ p{
     background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
-.root_operation{
-    border-radius: 50px;
-    margin-left: 20px;
-     padding-left: 35px;
-    padding-right: 45px;
-    padding-top: 20px;
-    padding-bottom: 20px; padding: 30px;
-    text-align: center;
-    justify-content: center;
-   
-    background: #bc4e9c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+
