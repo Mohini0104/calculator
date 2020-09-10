@@ -209,27 +209,3 @@ p{
  }
 
 }
-@media(max-width:450px){
-    
-#first_column .trigo{
-    font-size: 0.9rem;
-    padding-top: 21px;
-    padding-left: 7px;
-    margin-left: 10px;
-}
-#second_column .number{
-    font-size: 0.6rem;
-}
-.container{
-    height: auto; 
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-}
-#result_box{
-    width: 50px;
-    justify-content: center;
-    padding-right: 0%;
-    
-}
-}
