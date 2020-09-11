@@ -221,9 +221,9 @@ p{
     }
 #first_column{
     margin-right: 20px;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     display: grid;
-    grid-template-rows: 80px 80px 80px;
+    grid-template-rows: 70px 70px 70px;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 5px;
     /* padding-top: 21px;
