@@ -221,7 +221,8 @@ p{
     }
 #first_column{
     margin-right: 20px;
-    font-size: 0.5rem;
+    margin-left: -40px;
+    font-size: 0.6rem;
     display: grid;
     grid-template-rows: 70px 70px 70px;
     grid-template-columns: repeat(3,1fr);
@@ -238,6 +239,11 @@ p{
     grid-template-columns: repeat(3,1fr);
     grid-gap: 5px;
 }
+     
+.clear,.operator,.equals{
+    font-size: 0.8rem;
+}
+
 
 #result_box{
     width: 90%;
