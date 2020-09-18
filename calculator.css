@@ -1,255 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
 /* font-family: 'Ubuntu', sans-serif; */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #e9e9e9;
+font-family:'Ubuntu', sans-serif ;
+font-size: 30px;}
 body{
-    background: #c31432;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: 'Ubuntu', sans-serif;
-   
-
-
-}
-.container{
-    border-radius: 20px;
-    height: 90vh;
-    box-shadow:   0px 0px 5px #240b36,
-    0px 0px 5px #240b36,
-    0px 0px 5px #c31432,
-    0px 0px 5px #c31432
-   
-}
-.sub_container{
-   opacity: 0.5;
-}
-p{
-    font-size: 1.3rem;
-}
- .number ,.operator,#clear ,#equals,.trigo,.root_operation{
-    cursor: pointer;
-    color: white;
-   
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
- .number:hover {
-    cursor: pointer;
-    background-color:#240b36;
-    box-shadow:   0px 0px 5px #240b36,
-                  0px 0px 5px #240b36,
-                  0px 0px 5px #240b36,
-                  0px 0px 5px #240b36;
-    border: 1px solid  #240b36;
-    top:0;
-    left: 0;
-    height: 100px;
-    width: 100px;
-    background: linear-gradient(90deg ,transparent,#240b36);
-   
-   
-    
-}
-.trigo:hover{
-    cursor: pointer;
-    background-color:#240b36;
-    box-shadow:   0px 0px 5px #240b36,
-                  0px 0px 5px #240b36,
-                  0px 0px 5px #240b36,
-                  0px 0px 5px #240b36;
-    border: 1px solid  #240b36;
-    top:0;
-    left: 0;
-    height: 100px;
-    width: 100px;
-    background: linear-gradient(90deg ,transparent,#240b36);
-   
-}
-.clear:hover{
-    cursor: pointer;
-    background-color:#bc4e9c;
-    box-shadow:   0px 0px 5px #bc4e9c,
-                  0px 0px 5px #bc4e9c,
-                  0px 0px 5px #bc4e9c,
-                  0px 0px 5px #bc4e9c;
-    border: 1px solid  #bc4e9c;
-    top:0;
-    left: 0;
-    height: 100px;
-    width: 100px;
-    background: linear-gradient(90deg ,transparent,#240b36);
-}
-.operator:hover{
-    cursor: pointer;
-    background-color:#bc4e9c;
-    box-shadow:   0px 0px 5px #bc4e9c,
-                  0px 0px 5px #bc4e9c,
-                  0px 0px 5px #bc4e9c,
-                  0px 0px 5px #bc4e9c;
-    border: 1px solid  #bc4e9c;
-    top:0;
-    left: 0;
-    height: 100px;
-    width: 100px;
-    transition: 0.9s 0.6s ease-in-out;
-    background: linear-gradient(90deg ,transparent,#240b36);
-}
-.equals:hover{
-    cursor: pointer;
-    background-color:#bc4e9c;
-    box-shadow:   0px 0px 5px #bc4e9c,
-                  0px 0px 5px #bc4e9c,
-                  0px 0px 5px #bc4e9c,
-                  0px 0px 5px #bc4e9c;
-    border: 1px solid  #bc4e9c;
-    top:0;
-    left: 0;
-    height: 100px;
-    width: 100px;
-    background: linear-gradient(90deg ,transparent,#240b36);
-}
-#result{
-    font-size: 2rem;
-}
-.clear{border: 2px solid white;
-    border-radius: 100%;
-    margin-left: 20px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    color: white;
-    margin-top: 10px;
-
-    justify-content: center;
-    background: #bc4e9c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-.number{
-   border:2px solid black;
-    border-radius: 100%;
-    margin-left: 20px;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 20px;
-    margin-top: 10px;
-    padding-bottom: 20px;
-    text-align: center;
-    justify-content: center;
-    background-color: #240b36;
-    color: white;
-    font-size: 1.5rem;
-}
-.equals{
-    border-radius: 50px;
-    margin-left: 20px;
-    padding-left: 35px;
-    padding-right: 25px;
-    padding-top: 40px;
-    color:white;
-    margin-top: 10px;
-    border: 2px solid white;
-    padding-bottom: 20px;
-    text-align: center;
-    justify-content: center;
-    background: #bc4e9c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-
-}
-.trigo{
-    border-radius: 100%;
-    margin-left: 20px;
-    margin-top: 10px;
-    padding-left: 35px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    justify-content: center;
-    border:2px solid black;
-    background-color: #240b36;
-    color: white;
-    font-size: 1.5rem;
-    
-}
-.operator{
-    border-radius: 100%;
-    margin-left: 20px;
-    margin-top: 10px;
-    border: 2px solid white;
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    justify-content: center;
-    border: 2px solid violet;
-    background: #bc4e9c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-}
-/* _________________-media queries-______________________ */
-@media(max-width:799px) {
- .container{
-     height: auto; 
-     width: 100%;
-     text-align: center;
-     justify-content: center;
- }
- #result_box{
-     width: 90%;
-     justify-content: center;
-     padding-right: 0%;
-     
- }
- #second_column{
-     margin-top: 20px;
- }
-
-}
- @media(max-width:574px){
-    /* .responsive{
-        display: block;
-    } */
- .container{
-        height: 100%; 
-        width: 120%;
-        text-align: center;
-        justify-content: center;
-    }
-#first_column{
-    margin-right: 20px;
-    margin-left: -40px;
-    font-size: 0.6rem;
-    display: grid;
-    grid-template-rows: 70px 70px 70px;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 5px;
-    /* padding-top: 21px;
-    padding-left: 7px;
-    margin-left: 10px; */
-}
-#second_column {
-    margin-right: 20px;
-    font-size: 0.8rem;
-    display: grid;
-    grid-template-rows: 80px 80px 80px;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 5px;
-}
-     
-.clear,.operator,.equals{
-    font-size: 0.8rem;
-}
-
-
-#result_box{
-    width: 90%;
-    justify-content: center;
-    padding-right: 0%;
-    
-}
+@mixin  shadow{
+    box-shadow: -6px -6px 9px #fff, 6px 6px  9px rgba(#000,0.4);
 } 
+@mixin  shadow-inset{
+    box-shadow: inset -6px -6px 9px #fff,inset 6px 6px  9px rgba(#000,0.4);
+} 
+    
+
+main{
+    @include shadow;
+    padding: 2rem;
+    border-radius: 30px;
+
+    .number_op , button
+      {
+        outline: none;
+    }
+    .number_op::-webkit-outer-spin-button,
+    .number_op::-webkit-inner-spin-button{
+        -webkit-appearance: none;
+    }
+    .number_op[type=number]{
+        -moz-appearance: textfield;
+    }
+    .number_op{
+        @include shadow-inset;
+        width: 360px;
+        height: 60px;
+        padding: 16px 32px;
+        text-align: right;
+        border: none;
+        border-radius: 30px;
+        text-shadow: -1px -1px 2px #fff, 2px 2px 2px rgba(#000,0.4);
+
+    }
+    .keys{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-gap: 0.8rem;
+        margin-top: 20px;
+    }
+
+    .op_key,.num_key{
+        @include shadow;
+        width: 60px;
+        height: 60px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        background: #e9e9e9;
+
+         &:hover, &:active{
+             background-color: #ccc;
+         }
+         &:active{
+             @include shadow-inset;
+         }
+    }
+    #operator{
+        color: #ff652f;
+    }
+}
+
+// RESPONSIVENESS--------------------------------
+main{
+    margin-left: 12x;
+}
 
