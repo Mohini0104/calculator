@@ -1,4 +1,4 @@
-# scientific-calculator
+# neumorphic-scientific-calculator
 https://calculator-htmlcssjs.herokuapp.com/
 
 Tech Stack used : HTML
