@@ -1,5 +1,5 @@
 # neumorphic-scientific-calculator
-https://calculator-htmlcssjs.herokuapp.com/
+https://neumorphic-scientificcalculato.herokuapp.com/
 
 Tech Stack used : HTML
                   CSS
