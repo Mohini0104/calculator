@@ -91,3 +91,16 @@ main{
     margin-left: 10x;
 }
 }
+@media (max-width:360px){
+
+*{font-size: 19px;}
+main{
+    // margin-left: 10x;
+    grid-gap: 0.6rem;
+   
+}
+.op_key,.num_key{
+    width: 40px;
+    height: 40px;
+}
+}
